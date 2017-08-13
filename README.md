@@ -5,9 +5,8 @@ This will contain any PS related tips and tricks I pick up and would like to kee
 Here are some of the tricks I have found useful so far:
 - [PS and Regex]
 (https://kevinmarquette.github.io/2017-07-31-Powershell-regex-regular-expression/)
-- Playing with Chef and PS makes quotation marks a little tricky.
-[Understanding Quotation Marks](https://blogs.technet.microsoft.com/heyscriptingguy/2015/06/20/weekend-scripter-understanding-quotation-marks-in-powershell/)
-```
+- [Understanding Quotation Marks](https://blogs.technet.microsoft.com/heyscriptingguy/2015/06/20/weekend-scripter-understanding-quotation-marks-in-powershell/)
+```powershell
 $StringA = 'This is a string.'
 $LiteralString = 'The $foo variable will display as dollar foo.'
 $OutputVariableString = 'The $foo is actually ' + $foo + '.'
@@ -25,14 +24,14 @@ $2.50 - "Peanut"
     2. Create a new folder on your workstation (ie. /home/user/repo/)
     3. Create a LICENSE and README.md file. Add content.
     4. git init
-        ```
-        **$** `git init`
+        ```bash
+        $ git init
         Initialized empty Git repository in /home/modemusr/code/ps/.git/
         ```
     5. git add -f .
     6. git commit -am 'Initial commit for repo.'
-        ```
-        **$** `git commit -am 'Initial commit for repo.'`
+        ```bash
+        $ git commit -am 'Initial commit for repo.'
         [master (root-commit) 70d1abe] Initial commit for the PS repo
         2 files changed, 19 insertions(+)
         create mode 100644 LICENSE
@@ -40,8 +39,8 @@ $2.50 - "Peanut"
         ```
     7. git remote add origin https://github.com/user/repo.git
     8. git push -u origin master
-        ```
-        **$** `git push -u origin master`
+        ```bash
+        $ git push -u origin master
         Username for 'https://github.com': user
         Password for 'https://user@github.com': <github access token>
         Counting objects: 4, done.
