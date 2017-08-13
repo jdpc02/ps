@@ -3,8 +3,7 @@
 This will contain any PS related tips and tricks I pick up and would like to keep track of.
 
 Here are some of the tricks I have found useful so far:
-- [PS and Regex]
-(https://kevinmarquette.github.io/2017-07-31-Powershell-regex-regular-expression/)
+- [PS and Regex](https://kevinmarquette.github.io/2017-07-31-Powershell-regex-regular-expression/)
 - [Understanding Quotation Marks](https://blogs.technet.microsoft.com/heyscriptingguy/2015/06/20/weekend-scripter-understanding-quotation-marks-in-powershell/)
 ```powershell
 $StringA = 'This is a string.'
@@ -20,6 +19,7 @@ $2.50 - "Peanut"
 
 ###### Git Related:
 **Building a new repo:**
+
     1. Create a repo on Git.
 
     2. Create a new folder on your workstation (ie. /home/user/repo/).
@@ -43,7 +43,7 @@ $2.50 - "Peanut"
         ```
 
     7. git remote add origin https://github.com/user/repo.git
-    
+
     8. git push -u origin master
         ```bash
         $ git push -u origin master
