@@ -28,7 +28,7 @@ $2.50 - "Peanut"
 
     4. git init
         $ git init
-        Initialized empty Git repository in /home/modemusr/code/ps/.git/
+        Initialized empty Git repository in /home/user/repo/.git/
 
     5. git add -f .
 
