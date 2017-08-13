@@ -18,6 +18,13 @@ $2.50 - "Peanut"
 ```
 
 ###### Git Related:
+**Setup new git config**
+
+    - git config --global user.email "email@address.something"
+    - git config --global user.name "Some UserName"
+    - git config --global credential.helper 'cache --timeout=3600'
+    - git config --list
+
 **Building a new repo:**
 
     1. Create a repo on Git.
