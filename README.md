@@ -27,25 +27,21 @@ $2.50 - "Peanut"
     3. Create a LICENSE and README.md file. Add content.
 
     4. git init
-        ```bash
         $ git init
         Initialized empty Git repository in /home/modemusr/code/ps/.git/
-        ```
+
     5. git add -f .
 
     6. git commit -am 'Initial commit for repo.'
-        ```bash
         $ git commit -am 'Initial commit for repo.'
         [master (root-commit) 70d1abe] Initial commit for the PS repo
         2 files changed, 19 insertions(+)
         create mode 100644 LICENSE
         create mode 100644 README.md
-        ```
 
     7. git remote add origin https://github.com/user/repo.git
 
     8. git push -u origin master
-        ```bash
         $ git push -u origin master
         Username for 'https://github.com': user
         Password for 'https://user@github.com': <github access token>
@@ -56,4 +52,3 @@ $2.50 - "Peanut"
         To https://github.com/user/repo.git
          * [new branch]      master -> master
         Branch master set up to track remote branch master from origin.
-        ```
