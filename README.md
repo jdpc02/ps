@@ -20,15 +20,19 @@ $2.50 - "Peanut"
 
 ###### Git Related:
 **Building a new repo:**
-    1. Create a repo on Git
-    2. Create a new folder on your workstation (ie. /home/user/repo/)
+    1. Create a repo on Git.
+
+    2. Create a new folder on your workstation (ie. /home/user/repo/).
+
     3. Create a LICENSE and README.md file. Add content.
+
     4. git init
         ```bash
         $ git init
         Initialized empty Git repository in /home/modemusr/code/ps/.git/
         ```
     5. git add -f .
+
     6. git commit -am 'Initial commit for repo.'
         ```bash
         $ git commit -am 'Initial commit for repo.'
@@ -37,7 +41,9 @@ $2.50 - "Peanut"
         create mode 100644 LICENSE
         create mode 100644 README.md
         ```
+
     7. git remote add origin https://github.com/user/repo.git
+    
     8. git push -u origin master
         ```bash
         $ git push -u origin master
