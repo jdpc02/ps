@@ -1,4 +1,4 @@
-Powershell Related Scripts
+# Powershell Related Scripts
 
 This will contain any PS related tips and tricks I pick up and would like to keep track of.
 
@@ -16,3 +16,31 @@ $formatted = "$protein bar prices are:`n`t`$2.00 - `"Chocolate`"`n`t`$2.50 - `"P
 candy bar prices are:
 $2.00 - "Chocolate"
 $2.50 - "Peanut"
+
+###### Git Related:
+**- Building a new repo:**
+    - Create a repo on Git
+    - Create a new folder on your workstation (ie. /home/user/repo/)
+    - Create a LICENSE and README.md file. Add content.
+    - git init
+        **$** `git init`
+        Initialized empty Git repository in /home/modemusr/code/ps/.git/
+    - git add -f .
+    - git commit -am 'Initial commit for repo.'
+        **$** `git commit -am 'Initial commit for repo.'`
+        [master (root-commit) 70d1abe] Initial commit for the PS repo
+        2 files changed, 19 insertions(+)
+        create mode 100644 LICENSE
+        create mode 100644 README.md
+    - git remote add origin https://github.com/user/repo.git
+    - git push -u origin master
+        **$** `git push -u origin master`
+        Username for 'https://github.com': user
+        Password for 'https://user@github.com': <github access token>
+        Counting objects: 4, done.
+        Compressing objects: 100% (3/3), done.
+        Writing objects: 100% (4/4), 810 bytes | 810.00 KiB/s, done.
+        Total 4 (delta 0), reused 0 (delta 0)
+        To https://github.com/user/repo.git
+         * [new branch]      master -> master
+        Branch master set up to track remote branch master from origin.
