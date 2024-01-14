@@ -1,3 +1,4 @@
+#Requires -Version 7
 $tardir = "d:\VMs\vagrant.d\boxes"
 $subdir = $(Get-ChildItem -Path $tardir)
 
